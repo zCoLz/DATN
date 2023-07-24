@@ -1,0 +1,9 @@
+input:focus {
+    outline-color: cyan;
+    outline-width: 1px;
+}
+input {
+    outline-color: initial;
+    outline-width: 0;
+    transition: ouline-none outline-color 1s, outline-width 1s;
+}

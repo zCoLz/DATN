@@ -1,0 +1,10 @@
+.break-words {
+    word-wrap: break-word;
+    /* Đặt chiều cao tối đa của container */
+    max-height: 40px;
+    /* Đảm bảo văn bản không tràn ra ngoài container */
+    overflow: hidden;
+    /* Cắt ngắn tên file dài và hiển thị ba dấu chấm sau tên file */
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

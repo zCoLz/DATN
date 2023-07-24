@@ -1,0 +1,18 @@
+.custom-modal-alert .ant-modal-content {
+    width: 500px;
+    height: 120px;
+    margin-left: 350px;
+    left: 92%;
+    margin-top: 150px;
+    border-radius: 5px 5px 5px 5px;
+    overflow-y: hidden !important;
+}
+
+.ant-modal-confirm-body-wrapper {
+    padding: 10px;
+}
+:where(.css-dev-only-do-not-override-15rg2km).ant-btn-primary {
+    color: #fff;
+    background-color: #1677ff;
+    box-shadow: 0 2px 0 rgba(5, 145, 255, 0.1);
+}

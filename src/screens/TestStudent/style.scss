@@ -1,0 +1,11 @@
+input[type='radio']:disabled {
+    width: 20px;
+    height: 20px;
+    background-color: aqua;
+}
+input[type='checkbox']:enabled {
+    width: 20px;
+    height: 20px;
+    transition: 2s;
+    background-color: aqua;
+}

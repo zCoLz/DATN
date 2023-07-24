@@ -1,0 +1,52 @@
+//Custom DownLoadFile
+@media (min-width: 1025px) and (max-width: 1279px) {
+    .custom-modal-download-file .ant-modal-content {
+        padding: 15px;
+        width: 400px;
+        height: 200px;
+        top: 50%;
+        left: 50%;
+        transform: translate(50%, -50%);
+        overflow: hidden;
+        border-radius: 5px;
+    }
+}
+@media (min-width: 1440px) and (max-width: 1680px) {
+    .custom-modal-download-file .ant-modal-content {
+        padding: 15px;
+        width: 400px;
+        height: 200px;
+        top: 40%;
+        left: 50%;
+        transform: translate(80%, -50%);
+        overflow: hidden;
+        border-radius: 5px;
+    }
+}
+@media (min-width: 1681px) and (max-width: 1919px) {
+    .custom-modal-download-file .ant-modal-content {
+        padding: 15px;
+        width: 400px;
+        height: 200px;
+        top: 40%;
+        left: 50%;
+        transform: translate(80%, -50%);
+        overflow: hidden;
+        border-radius: 5px;
+    }
+}
+@media (min-width: 1920px) {
+    .custom-modal-download-file .ant-modal-content {
+        padding: 15px;
+        width: 400px;
+        height: 200px;
+        top: 40%;
+        left: 50%;
+        transform: translate(125%, -50%);
+        overflow: hidden;
+        border-radius: 5px;
+    }
+}
+.break-words {
+    word-wrap: break-word;
+}
